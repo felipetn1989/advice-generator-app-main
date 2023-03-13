@@ -16,16 +16,19 @@
 
     <link rel="stylesheet" href="../dist/output.css" />
   </head>
-  <body class="bg-[#1f2632]">
-    <main class="relative grid gap-[1.5625rem] bg-[#323a49] mt-[7.4375rem] mx-4 rounded-lg text-center pt-[2.5625rem] pb-16 px-6">
-      <h1 class="text-[#52ffa8] uppercase font-extrabold text-[0.625rem] tracking-[0.1875rem]">Advice #<span id="adviceId" class="font-sans"></span></h1>
-      <q id="adviceQuote" class="text-[#cfe3e8] text-2xl font-extrabold"></q>
-      <img
-        class="m-auto"
-        src="../images/pattern-divider-mobile.svg"
-        alt=""
-        aria-hidden="true"
-      />
+  <body class="bg-[#1f2632] lg:flex lg:flex-col lg:justify-center lg:items-center lg:h-[100vh]">
+    <main class="relative grid gap-[1.5625rem] bg-[#323a49] mt-[7.4375rem] mx-4 rounded-lg text-center pt-[2.5625rem] pb-16 px-6 lg:mt-7 lg:w-[33.75rem] lg:pt-12 lg:px-9 lg:rounded-xl">
+      <h1 class="text-[#52ffa8] uppercase font-extrabold text-[0.625rem] tracking-[0.1875rem] lg:text-[0.8125rem]">Advice #<span id="adviceId" class="font-sans"></span></h1>
+      <q id="adviceQuote" class="text-[#cfe3e8] text-2xl font-extrabold lg:leading-[2.375rem]"></q>
+      <picture class="lg:mt-3 lg:pb-2">
+        <source media="(min-width:60em)" srcset="../images/pattern-divider-desktop.svg">
+        <img
+          class="m-auto"
+          src="../images/pattern-divider-mobile.svg"
+          alt=""
+          aria-hidden="true"
+        />
+      </picture>
       <button id="adviceBtn" class="absolute left-1/2 translate-x-[-50%] bottom-[-2rem] bg-[#52ffa8] m-auto flex rounded-full w-16 h-16 justify-center items-center">
         <img
           class="w-6 h-6"
