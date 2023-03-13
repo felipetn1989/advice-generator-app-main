@@ -21,6 +21,10 @@ body {
   font-family: "Manrope", sans-serif;
 }
 
+#adviceBtn:hover {
+    box-shadow: 0 0 30px #52ffa8;
+}
+
 .attribution {
   font-size: 0.6875rem;
   text-align: center;
