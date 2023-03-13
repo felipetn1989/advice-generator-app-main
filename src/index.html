@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Advice generator app</title>
+
+    <link rel="stylesheet" href="../dist/output.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Advice #<span id="adviceId"></span></h1>
+      <q id="adviceQuote"></q>
+      <img
+        src="../images/pattern-divider-mobile.svg"
+        alt=""
+        aria-hidden="true"
+      />
+      <button class="bg-[#52ffa8] flex rounded-full w-16 h-16 justify-center items-center" onclick="getAdvice()">
+        <img
+          class="w-6 h-6"
+          src="../images/icon-dice.svg"
+          alt="Dice icon"
+        />
+      </button>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/felipetn1989" target="_blank">Felipe Thomé</a
+      >.
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
