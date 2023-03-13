@@ -7,14 +7,14 @@
 :root {
   /* ### Primary */
 
-  --Light-Cyan: hsl(193, 38%, 86%);
+  --Light-Cyan: #cfe3e8;
   --Neon-Green: #52ffa8;
 
   /* ### Neutral */
 
   --Grayish-Blue: hsl(217, 19%, 38%);
-  --Dark-Grayish-Blue: hsl(217, 19%, 24%);
-  --Dark-Blue: hsl(218, 23%, 16%);
+  --Dark-Grayish-Blue: #323a49;
+  --Dark-Blue: #1f2632;
 }
 
 body {

@@ -16,16 +16,17 @@
 
     <link rel="stylesheet" href="../dist/output.css" />
   </head>
-  <body>
-    <main>
-      <h1>Advice #<span id="adviceId"></span></h1>
-      <q id="adviceQuote"></q>
+  <body class="bg-[#1f2632]">
+    <main class="relative grid gap-[1.5625rem] bg-[#323a49] mt-[7.4375rem] mx-4 rounded-lg text-center pt-[2.5625rem] pb-16 px-6">
+      <h1 class="text-[#52ffa8] uppercase font-extrabold text-[0.625rem] tracking-[0.1875rem]">Advice #<span id="adviceId" class="font-sans"></span></h1>
+      <q id="adviceQuote" class="text-[#cfe3e8] text-2xl font-extrabold"></q>
       <img
+        class="m-auto"
         src="../images/pattern-divider-mobile.svg"
         alt=""
         aria-hidden="true"
       />
-      <button id="adviceBtn" class="bg-[#52ffa8] flex rounded-full w-16 h-16 justify-center items-center">
+      <button id="adviceBtn" class="absolute left-1/2 translate-x-[-50%] bottom-[-2rem] bg-[#52ffa8] m-auto flex rounded-full w-16 h-16 justify-center items-center">
         <img
           class="w-6 h-6"
           src="../images/icon-dice.svg"
@@ -34,7 +35,7 @@
       </button>
     </main>
 
-    <footer class="attribution">
+    <footer class="attribution mt-12">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
